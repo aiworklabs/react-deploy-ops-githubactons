@@ -98,4 +98,4 @@ jobs:
       env:
         EC2_IP: ${{ secrets.EC2_IP }}
       run: |
-        echo "Visit http://$EC2_IP to see your deployed React application."
+        echo "Visit http://$EC2_IP to see your deployed React applications."
